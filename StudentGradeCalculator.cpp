@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 double calculateAverage(int grade1, int grade2, int grade3)
@@ -7,9 +6,9 @@ double calculateAverage(int grade1, int grade2, int grade3)
     return (grade1 + grade2 + grade3) / 3.0;
 }
 
-int main()
+void main()
 {
-    string studentName = "Ahmad";
+    string studentName = "Ahmed Yaser";
     int grade1 = 85;
     int grade2 = 90;
     int grade3 = 80;
@@ -22,5 +21,5 @@ int main()
     cout << "Grade 3: " << grade3 << endl;
     cout << "Average: " << average << endl;
 
-    return 0;
+    cout << "Mini Challenge Completed!" << endl;
 }
