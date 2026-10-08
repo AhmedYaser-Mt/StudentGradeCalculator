@@ -22,4 +22,5 @@ void main()
     cout << "Average: " << average << endl;
 
     cout << "Mini Challenge Completed!" << endl;
+    cout << "Thank you for using the Student Grade Calculator!" << endl;
 }
